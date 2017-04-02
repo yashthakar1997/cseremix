@@ -1,5 +1,11 @@
+<?php 
+ include 'comp/header.php';
+?>
+
 <?php
-<br>
-echo "Hello world"
-<br>
+ include 'comp/main-content.php';
+?>
+
+<?php 
+ include 'comp/footer.php';
 ?>
