@@ -1,7 +1,9 @@
 <?php echo "hello";?>
 
 <?php 
- include 'comp/header.php';
+
+ require_once __DIR__ . 'comp/header.php';
+
 ?>
 
 <?php
