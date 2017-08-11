@@ -22,16 +22,16 @@ $db = parse_url('postgres://nwktolobhorubg:85b3da606efa12296f61a6139f968445b1463
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'dcot5ea8vgmr1t');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'nwktolobhorubg');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', '85b3da606efa12296f61a6139f968445b14631032d8a3990e2cccf76c2b11b60');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'ec2-184-72-230-93.compute-1.amazonaws.com:5432');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -65,7 +65,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = '';
 
 /**
  * For developers: WordPress debugging mode.
