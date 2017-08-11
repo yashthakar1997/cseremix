@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+$db = parse_url('postgres://nwktolobhorubg:85b3da606efa12296f61a6139f968445b14631032d8a3990e2cccf76c2b11b60@ec2-184-72-230-93.compute-1.amazonaws.com:5432/dcot5ea8vgmr1t');
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'database_name_here');
